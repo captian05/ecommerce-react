@@ -62,3 +62,87 @@ button:hover {
   font-size: 18px;
   font-weight: bold;
 }
+.cart-container {
+  padding: 40px;
+  min-height: 80vh;
+}
+
+.cart-title {
+  margin-bottom: 30px;
+}
+
+.cart-layout {
+  display: flex;
+  gap: 30px;
+}
+
+.cart-items {
+  flex: 2;
+}
+
+.cart-card {
+  display: flex;
+  align-items: center;
+  background: #1e1e2f;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.cart-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cart-details {
+  flex: 1;
+}
+
+.quantity-control button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  margin-top: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cart-summary {
+  flex: 1;
+  background: #1e1e2f;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
